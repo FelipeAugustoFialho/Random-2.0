@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box-all {
+
+    text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    margin-top: -80px;
+
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+
+    margin-bottom: 20px;
+
+}
+
+body {
+    background: black;
+}
+
+.input {
+
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+
+
+}
+
+
+.min {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.max {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    color: white;
+    font-size: 50px;
+
+    margin-top: 40px;
+    background-color: green;
+    border-radius: 20px;
+    width: 440px;
+    height: 80px;
+
+
+}
+
+.min {
+    margin-right: 20px;
+}
+
+
+.resultado-tela {
+
+    color: green;
+    position: absolute;
+    text-align: center;
+    margin-left: -51px;
+    font-size: 150px;
+    margin-top: 104px;
+
+}
+
+.space-footer {
+    height: 100px;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 20px;
+    /* Espaço entre o conteúdo e o footer */
+    position: fixed;
+    bottom: 0;
+    width: 26%;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: left;
+    background-color: transparent;
+}
+
+.bi-github {
+    color: white;
+    font-size: 30px;
+}
+
+.bi-linkedin {
+    color: rgb(10, 100, 198);
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    button {
+        width: 148px;
+        font-size: 21px;
+        margin-top: 9px;
+        height: 39px;
+
+    }
+
+    .input {
+        width: 250px;
+        top: 72%;
+    }
+
+    .min {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .resultado-tela {
+        margin-left: -107px;
+        text-align: left;
+    }
+
+    img {
+        margin-left: -39px;
+    }
+}
